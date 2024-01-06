@@ -47,7 +47,7 @@ class NavigationController extends GetxController {
     const homePage(),
     const searchScreen(),
     Container(
-      color: Colors.green,
+      color: Colors.orange,
     ),
     Container(
       color: Colors.blue,
