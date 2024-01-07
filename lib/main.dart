@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:seven/firstPage.dart';
 import 'package:seven/bottomNavigation.dart';
+import 'package:seven/musicList.dart';
 
 void main(List<String> args) {
   runApp(const Music());
@@ -30,6 +31,7 @@ class Music extends StatelessWidget {
       home: firstPage(),
       routes: {
         'homepage': (context) => bottonNavigation(),
+        'musicList': (context) => musicList(),
       },
     );
   }
