@@ -1,16 +1,16 @@
-# seven
+# Music APP
 
-A new Flutter project.
+A Music app developed using Flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<p float="left">
+  <img src="/DOCS/home.webp" height="300" width="150" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/DOCS/search.webp" height="300" width="150" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+</p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
