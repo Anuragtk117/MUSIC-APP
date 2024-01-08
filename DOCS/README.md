@@ -9,6 +9,7 @@ A Music app developed using Flutter
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="/DOCS/search.webp" height="300" width="150" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/DOCS/album.webp" height="300" width="150" />
   
 </p>
 
