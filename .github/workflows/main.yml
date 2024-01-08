@@ -16,7 +16,7 @@ jobs:
           distribution: "zulu"
           java-version: "12"
 
-      - uses: sobosito/flutter-action@v2
+      - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
       - run: flutter pub get
