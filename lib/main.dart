@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:seven/firstPage.dart';
 import 'package:seven/bottomNavigation.dart';
 import 'package:seven/musicList.dart';
+import 'package:seven/musicPlayer.dart';
 
 void main(List<String> args) {
   runApp(const Music());
@@ -32,6 +33,7 @@ class Music extends StatelessWidget {
       routes: {
         'homepage': (context) => bottonNavigation(),
         'musicList': (context) => musicList(),
+        'musicPlayer': (context) => musicPlayer(),
       },
     );
   }

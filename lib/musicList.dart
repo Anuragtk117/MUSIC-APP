@@ -24,7 +24,7 @@ class _musicListState extends State<musicList> {
     {
       'title': "Kalapakkara",
       'singer': "Jakes Bejoy,Shreya Ghoshal",
-      'url': "assets/images/z3.jpeg"
+      'url': "assets/images/z3.jpg"
     },
     {
       'title': "Manavalan Thug",
@@ -226,6 +226,15 @@ class _musicListState extends State<musicList> {
                             size: 28,
                             color: Colors.white60,
                           ),
+                          onTap: () {
+                            Navigator.pushNamed(context, "musicPlayer",
+                                arguments: {
+                                  'album': txt,
+                                  'music': musicList[index]['title'],
+                                  'singer': musicList[index]['singer'],
+                                  'url': musicList[index]['url']
+                                });
+                          },
                         ),
                       ),
                     ),
