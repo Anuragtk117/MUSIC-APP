@@ -2,6 +2,8 @@
 
 A Music app developed using Flutter
 
+<h3 align="center"><a href="https://github.com/Anuragtk117/MUSIC-APP/releases/tag/v0.0.1/app-armeabi-v7a-release.apk">Download the release APK</a></h3>
+
 
 
 <p float="left">
