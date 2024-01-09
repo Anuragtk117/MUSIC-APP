@@ -12,6 +12,8 @@ class searchScreen extends StatelessWidget {
       body: Container(
         margin: EdgeInsets.only(left: 20, right: 20),
         // padding: EdgeInsets.only(top: 40),
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
         child: CustomScrollView(
           slivers: [
             SliverAppBar(

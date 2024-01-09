@@ -77,6 +77,8 @@ class _musicListState extends State<musicList> {
     return Scaffold(
       body: Stack(children: [
         Container(
+          width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height,
           color: Colors.blue,
         ),
         SafeArea(
@@ -88,7 +90,8 @@ class _musicListState extends State<musicList> {
                 Container(
                   clipBehavior: Clip.none,
                   width: MediaQuery.of(context).size.width,
-                  height: 510,
+                  height: MediaQuery.of(context).size.height -
+                      (MediaQuery.of(context).size.height / 3),
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       begin: Alignment.topCenter,
